@@ -39,4 +39,4 @@ if __name__ == '__main__':
               % (attributes['headpose']['pitch_angle'], attributes['headpose']['roll_angle'], attributes['headpose']['yaw_angle'])
         print '人种分析结果：%s （Asian代表亚洲人，White代表白人，Black代表黑人）' % attributes['ethnicity']['value']
     except:
-        print '错误信息：%s'%face_roken["error_message"]
+        print '错误信息：%s'% face_roken["error_message"]
